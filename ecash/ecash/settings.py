@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m_1o5paytoqite!itr#&e^9$s9n26$%(9i76ejeuv0d1b5cw6%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ecash'
 ]
 
 MIDDLEWARE = [
