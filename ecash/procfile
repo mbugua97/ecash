@@ -1,0 +1,1 @@
+web:gunicorn ecash.wsgi --log-file -
