@@ -11,7 +11,7 @@ def callback(request):
      data=request.body.decode('\n','')
      dbdata={"data":data}
     except:
-     dbdata={"data":'message from vers'}
+     dbdata={"data":'message failed data from vers'}
     if not data is None:
         try:
            re=requests.post(mdb_endpoint,data=dbdata)
