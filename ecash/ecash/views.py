@@ -3,7 +3,7 @@ from django.http import HttpResponse, JsonResponse
 import requests
 
 
-mdb_endpoint='https://da99-196-103-167-166.ngrok-free.app/getdata'
+mdb_endpoint='https://0a48-105-161-158-238.ngrok-free.app/getdata'
 
 
 def callback(request):
